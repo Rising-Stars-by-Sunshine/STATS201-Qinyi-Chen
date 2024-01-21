@@ -1,0 +1,5 @@
+This dataset is found from an open database. It contains motor imagery EEG data from 9 experimental subjects. consisted of four different motor imagery tasks, namely the imagination of movement of the left hand (class 1), right hand (class 2), both feet (class 3), and tongue (class 4).
+The subjects were sitting in a comfortable armchair in front of a computer screen. After the initial fixation, a cue in the form of an arrow pointing either to the left, right, down or up (corresponding to one of the four classes left hand, right hand, foot or tongue) appeared and stayed on the screen for 1.25 s. This prompted the subjects to perform the desired motor imagery task. No feedback was provided.
+
+References
+“Papers with Code - BNCI 2014-001 Motor Imagery Dataset. Dataset.” BNCI 2014-001 Motor Imagery dataset. Dataset | Papers With Code. Accessed January 21, 2024. https://paperswithcode.com/dataset/bci-competition-4-version-iia. 
