@@ -1,17 +1,17 @@
 Applying HRV Models to Predict Cognitive Stress
-Background and Motivation
+#Background and Motivation
 Heart Rate Variability serves as a marker for autonomic nervous system activity and is related to various kinds of clinical diagnosis and behavioral assessments. Prior studies have successfully employed heart rate variability (HRV) as a valuable metric for identifying cognitive tasks. For instance, Posada-Quintero and Bolkhovsky (2019) applied HRV and Electrodermal activity data to classify different cognitive tasks like psychomotor vigilance, auditory working memory, and continuous visual search. They evaluated four different machine learning algorithms: k-nearest neighbor classifier (KNN), support vector machines (SVM), decision trees, and discriminant analysis (DA). According to the research, it turned out that the KNN performed the best accuracy in prediction. Another application of HRV data is for measuring dementia risk, as addressed in Ebinger et al. (2024). With these insightful research, it is inspiring that HRV may also be associated with a spectrum psychological disorders, including the detection of cognitive stress. 
-Research Questions
+#Research Questions
 This research aims at finding the main question: Can Heart Rate Variability Effectively Evaluate Cognitive Stress? By applying KNN as the machine learning algorithm, this research seeks to explore the utility of HRV in assessing cognitive stress levels. Additionally, I want to evaluate How accurate the HRV-Stress Model is, quantifying the predictive accuracy of the HRV-based model for stress assessment.
-Application Scenarios
+#Application Scenarios
 The application of HRV in clinical diagnostics offers a promising avenue for identifying and managing cognitive stress. For instance, early detection of stress-related dysfunction can lead to more effective healthcare interventions in both educational and business settings, ultimately improving individual well-being.
-Methodology
-This study leverages publicly available HRV datasets, which can be accessed via the following link: HRV Datasets. With the information provided in The chosen methodology for this investigation involves the application of K-Nearest-Neighbors classification, a well-established machine learning technique. This approach is selected for its capacity to uncover patterns in HRV data and predict cognitive stress levels accurately.
-Potential Results
+#Methodology
+This study leverages publicly available HRV datasets, which can be accessed via the following link: HRV Datasets. With the information provided in Posada-Quintero and Bolkhovsky (2019), and in Oskooei (2024), the K-Nearest-Neighbors classification is the most commonly used algorithm that were proved relatively accurate. Therefore, this investigation will apply K-Nearest-Neighbors classification. This method is expected for its capacity to uncover patterns in HRV data and predict cognitive stress levels accurately.
+#Potential Results
 In theory, this study anticipates uncovering correlations between HRV patterns and cognitive stress levels, with the potential to identify specific HRV markers indicative of stress. The identification of such markers could lead to the development of efficient stress assessment tools, aiding in early intervention and targeted stress managements.
-Intellectual Merits and Impact
+#Intellectual Merits and Impact
 This research contributes to the ongoing exploration of HRV as a valuable biomarker in the field of cognitive stress assessment, furthering our understanding of its potential applications.	The findings from this study may pave the way for practical applications in healthcare, education, and the workplace by enabling early detection and intervention for cognitive stress, thereby improving overall well-being.
-It is important to acknowledge the limitations of this research, including the need for larger and more diverse datasets and the necessity for rigorous validation of the HRV-stress model in real-world scenarios.
+However, it is important to acknowledge the limitations of this research, including the need for larger and more diverse datasets and the necessity for rigorous validation of the HRV-stress model in real-world scenarios.
 
 References
 Ebinger, J. E., Driver, M. P., Huang, T. Y., Magraner, J., Botting, P. G., Wang, M., Chen, P.-S., Bello, N. A., Ouyang, D., Theurer, J., Cheng, S., & Tan, Z. S. (2024). Blood pressure variability supersedes heart rate variability as a real-world measure of dementia risk. Scientific Reports, 14(1). https://doi.org/10.1038/s41598-024-52406-8 
