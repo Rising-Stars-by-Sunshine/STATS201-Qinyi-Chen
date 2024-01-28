@@ -3,3 +3,27 @@ This dataset can help us understand the raw data of HRV and its detailed charact
 
 References
 Chen, Kuan-Fu (2020), “HRV sepsis dataset”, Mendeley Data, V1, doi: 10.17632/5tgk53r4v5.1
+
+namespace DataDictionary\HRV;
+
+
+interface Visitor
+{
+    public function setFieldDefinition($object);
+
+    public function setClassDefinition(\Pimcore\Model\DataObject\ClassDefinition $object);
+
+    public function setGraph(Graph $graph);
+
+    public function getGraph():Graph;
+
+    public function visit();
+}
+
+
+| Variable Name | Definition | Description | Frequency | Range | Unit | Type |
+| --- | --- | --- | --- | --- | --- | --- |
+| Variable1 | Definition of Variable1 | Description of Variable1 | Frequency1 | Range1 | Unit1 | Type1 |
+| Variable2 | Definition of Variable2 | Description of Variable2 | Frequency2 | Range2 | Unit2 | Type2 |
+| ... | ... | ... | ... | ... | ... | ... |
+
