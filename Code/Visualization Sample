@@ -1,0 +1,16 @@
+https://colab.research.google.com/drive/1h90UsujVjYYqrWf3vfX8cUbWrONRQ2E5#scrollTo=MyLKHfgVXefe
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset (C:\Users\admin\Desktop\sophomore s3\stats201\HRV data 20201209.xlsx)
+data = pd.read_excel('HRV data 20201209.xlsx')
+
+# Plotting the LF/HF Ratio
+plt.figure(figsize=(10, 6))
+sns.histplot(data['LF.HF.ratio.LombScargle'], kde=True)
+plt.title('Distribution of LF/HF Ratio')
+plt.xlabel('LF/HF Ratio')
+plt.ylabel('Frequency')
+plt.show()
