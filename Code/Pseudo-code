@@ -1,0 +1,9 @@
+1. Import necessary libraries (Pandas, Matplotlib, Seaborn)
+2. Load the HRV dataset using Pandas
+3. Inspect the dataset for understanding its structure and contents
+4. Select the variable of interest (e.g., LF/HF ratio, Mean rate)
+5. Perform statistical analysis or data visualization
+   a. For visualization, use Matplotlib/Seaborn to create plots like histograms, scatter plots
+   b. For statistical analysis, compute relevant statistics like mean, median, standard deviation
+6. Interpret the results to gain insights into HRV patterns
+7. Document findings and observations
