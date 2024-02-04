@@ -8,3 +8,8 @@ EDA: Electrodermal Activity
 HR: Heart Rate
 TEMP: Skin Temperature
 label: Categorical states (of stress level)
+
+Since the dataset "merged_data.csv" was too big to be uploaded to the repository, I selected 1000 rows of the data into the "sampled_data.csv" file. However, the data analysis process should be done using "merged_data.csv", which is accessible in the link.
+
+Bibliography
+Guanlintao. (2023, December 10). 📈Eda: PCA: 「ml」nurse stress prediction. Kaggle. https://www.kaggle.com/code/guanlintao/eda-pca-ml-nurse-stress-prediction/notebook 
