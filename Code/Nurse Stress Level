@@ -30,6 +30,7 @@ from lightgbm import *
 pd.set_option("display.max_columns", None)
 import warnings
 warnings.filterwarnings('ignore')
+```python
 
 Collecting optuna
   Downloading optuna-3.5.0-py3-none-any.whl (413 kB)
