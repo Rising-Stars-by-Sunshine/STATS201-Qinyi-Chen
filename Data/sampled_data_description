@@ -1,0 +1,10 @@
+This sampled data was downloaded from an online database:
+https://www.kaggle.com/code/guanlintao/eda-pca-ml-nurse-stress-prediction/notebook#Model-Performance
+According to the researcher, this is a dataset for "Continuous Stress Monitoring of Hospital Nurses". The original research applied XGBClassifier and LGBMClassfier to predict the stress level in hospital nurses. 
+
+Read the dataset:
+X,Y,Z: Orientation data 
+EDA: Electrodermal Activity
+HR: Heart Rate
+TEMP: Skin Temperature
+label: Categorical states (of stress level)
